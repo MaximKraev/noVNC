@@ -51,6 +51,7 @@ html {
 
 #noVNC_buttons {
   white-space: nowrap;
+  display: none;
 }
 
 #noVNC_view_drag_button {
@@ -276,7 +277,7 @@ html {
 /* Control bar */
 #noVNC-control-bar {
   position:fixed;
-  
+
   display:block;
   height:36px;
   left:0;
